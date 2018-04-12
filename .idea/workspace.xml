@@ -2,26 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d1b96c2-a9aa-4483-a948-7aa212961b05" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/distributions/sign/bin/sign" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/distributions/sign/bin/sign.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/distributions/sign/lib/commons-codec-1.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/distributions/sign/lib/commons-collections4-4.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/distributions/sign/lib/commons-io-2.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/distributions/sign/lib/jxl-2.6.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/distributions/sign/lib/log4j-1.2.17.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/distributions/sign/lib/poi-3.16.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/distributions/sign/lib/sign.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileContent/fileContent.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/java/main/com/baixuegu/sign/App.class" afterPath="$PROJECT_DIR$/build/classes/java/main/com/baixuegu/sign/App.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/distributions/sign.tar" afterPath="$PROJECT_DIR$/build/distributions/sign.tar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/distributions/sign.zip" afterPath="$PROJECT_DIR$/build/distributions/sign.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/distributions/sign/lib/sign.jar" afterPath="$PROJECT_DIR$/build/distributions/sign/lib/sign.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/sign.jar" afterPath="$PROJECT_DIR$/build/libs/sign.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/baixuegu/sign/App.java" afterPath="$PROJECT_DIR$/src/main/java/com/baixuegu/sign/App.java" />
     </list>
@@ -105,10 +95,12 @@
       <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/baixuegu/sign/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="208">
+              <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#788#789#0" expanded="true" />
+                <element signature="e#848#849#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -485,8 +477,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="8" />
-    <option name="y" value="29" />
+    <option name="x" value="71" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="839" />
   </component>
@@ -634,6 +626,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="distributions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="distributions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sign" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1182,15 +1196,15 @@
       <updated>1523554830727</updated>
       <workItem from="1523554833580" duration="10073000" />
       <workItem from="1523565150348" duration="153000" />
-      <workItem from="1523565448623" duration="798000" />
+      <workItem from="1523565448623" duration="1586000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11024000" />
+    <option name="totallyTimeSpent" value="11812000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="29" width="1440" height="839" extended-state="6" />
+    <frame x="71" y="23" width="1440" height="839" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1345,10 +1359,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/baixuegu/sign/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="208">
+          <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
           </folding>
         </state>
       </provider>

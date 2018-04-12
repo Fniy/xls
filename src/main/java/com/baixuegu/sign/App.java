@@ -4,6 +4,7 @@ import com.baixuegu.sign.download.Downloader;
 import org.apache.commons.io.FileUtils;
 
 import java.io.File;
+import java.io.FilenameFilter;
 import java.io.IOException;
 import java.math.BigDecimal;
 
@@ -17,8 +18,8 @@ public class App {
 
     public static void main(String[] args) throws InterruptedException, IOException {
 
-        File inDir = new File("./原始表格");
-        File outDir = new File("./自动化导出");
+        File inDir = new File("./表格放这里");
+        File outDir = new File("./导好的在这里");
 
         //清空outDir
         if(outDir.exists()){
@@ -26,7 +27,12 @@ public class App {
         }
         outDir.mkdirs();
 
-        File[] xlsList = inDir.listFiles();
+        File[] xlsList = inDir.listFiles(new FilenameFilter() {
+            @Override
+            public boolean accept(File dir, String name) {
+                return name.endsWith(".xls");
+            }
+        });
         for (int i = 0; i < xlsList.length; i++) {
 
             File xls = xlsList[i];
