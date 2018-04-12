@@ -17,7 +17,6 @@ public class App {
 
     public static void main(String[] args) throws InterruptedException, IOException {
 
-
         File inDir = new File("./原始表格");
         File outDir = new File("./自动化导出");
 
@@ -45,7 +44,7 @@ public class App {
 //        for(int i=0;i<11;i++){
 //            System.out.println((i/10d) * 100);
 //        }
-
+//
 
     }
 
